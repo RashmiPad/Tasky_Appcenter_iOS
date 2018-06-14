@@ -35,7 +35,7 @@ echo
 # --- Main
 
 ARTIFACTS_DIR="Artifacts"
-BUILD_DIR="Petco.UITests/bin/Release"
+BUILD_DIR="Tasky.UITests/bin/Release"
 MANIFEST_PATH="${ARTIFACTS_DIR}/manifest.json"
 
 
