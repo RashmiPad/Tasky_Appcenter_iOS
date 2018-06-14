@@ -3,11 +3,11 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: xamarin
 app:
   envs:
-  - APP_CENTER_APP: "xtc-Petco/Petco_QA_iOS_Tests"
-  - APP_CENTER_TOKEN: "93424d4f2ed8ba4ba8492a7c7299366eee09a2a9"
-  - BITRISE_STEP_ID: Petco_AppCenter_iOS
+  - APP_CENTER_APP: "rashmipad/TaskyiOS_Appcenter"
+  - APP_CENTER_TOKEN: "4f2a6ef04d856c91ce75e01adf03f5af032de65c"
+  - BITRISE_STEP_ID: Tasky_AppCenter_iOS
   - BITRISE_STEP_VERSION: "1.0.0"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/rashmpad/Petco_AppCenter_iOS_IntroScreen
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/RashmiPad/Tasky_Appcenter_iOS
   - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
 
 workflows:
